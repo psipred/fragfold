@@ -9,6 +9,7 @@ CFLAGS	= -O3 -ffast-math -march=core2
 all:	fragfold
 
 install:
+	mkdir -p ../bin
 	/bin/cp fragfold ../bin
 
 clean:
