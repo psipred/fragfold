@@ -1,10 +1,10 @@
 # FRAGFOLD Parameter File
 
 # Alignment file
-ALNFILE T0281_big.aln
+ALNFILE example/T0281_big.aln
 
 # Predicted residue-residue contacts file location
-CONFILE T0281.con
+CONFILE example/T0281.con
 
 # Weighting mode
 WTMODE STDEV
