@@ -1,0 +1,41 @@
+# FRAGFOLD Parameter File
+
+# Alignment file
+ALNFILE T0281_big.aln
+
+# Weighting mode
+WTMODE STDEV
+
+# Steric mode
+STERMODE ALLATOM
+
+# Short range weighting
+SRWT 1.0
+# Long range weighting
+LRWT 1.0
+# Solvation weighting
+SOLVWT 1.0
+# Hydrogen bond weighting
+HBWT 1.0
+# Compactness weighting
+COMPACTWT 1.0
+# Steric weighting
+STERICWT 1.0
+# Disulphide weighting
+DSWT 0.0
+# RMSD-to-target weighting
+TARGWT 100.0
+
+# Max. no. of steps
+MAXSTEPS 1000000
+
+# INITEMP
+INITEMP 0.75
+
+# MAXFRAGS
+MAXFRAGS 5
+
+# MAXFRAGS2
+MAXFRAGS2 25
+
+MODE REFINE

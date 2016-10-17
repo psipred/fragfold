@@ -1,0 +1,54 @@
+FRAGFOLD by David T. Jones
+
+This software and data relates to the following publications:
+
+D.T. Jones (1997) "Successful ab initio prediction of the tertiary structure of
+NK-lysin using multiple sequences and recognized supersecondary structural motifs."
+Proteins 29(Suppl 1), 185-191.
+
+D.T. Jones (2001) "Predicting novel protein folds by using FRAGFOLD" Proteins
+45(Suppl 5), 127-132.
+
+D.T. Jones, L.J. McGuffin (2003) "Assembling novel protein folds from super-secondary
+structural fragments" Proteins 53(Suppl 6), 480-485.
+
+D.T. Jones, K. Bryson, A. Coleman, L.J. McGuffin, M.I. Sadowski, J.S. Sodhi,
+J.J. Ward (2005) "Prediction of novel and analogous folds using fragment assembly
+and fold recognition" Proteins 61(Suppl 7) 143-151.
+
+T. Kosciolek, D.T. Jones (2014) "De Novo Structure Prediction of Globular Proteins
+Aided by Sequence Variation-Derived Contacts" PLoS One 9, E92197.
+
+
+THIS SOFTWARE MAY BE USED FREE OF CHARGE BY NON-COMMERCIAL USERS. SEE LICENSE FILE FOR DETAILED TERMS.
+
+COMMERCIAL USERS WILL NEED TO OBTAIN A SUITABLE COMMERCIAL USAGE LICENSE FROM UCL BUSINESS - PLEASE CONTACT
+enquiries AT ebisu.co.uk FOR FURTHER ASSISTANCE BEFORE YOU ATTEMPT TO INSTALL AND USE THE SOFTWARE.
+
+
+GENERAL NOTE - IF YOU HAVE AN INTERESTING TARGET PROTEIN TO PREDICT AND WOULD LIKE
+US TO RUN FRAGFOLD FOR YOU, THEN PLEASE FEEL FREE TO GET IN TOUCH (e-mail d.t.jones AT ucl.ac.uk).
+
+
+Compiling:
+gcc44 -O3 -ffast-math -march=core2 fragfold.c -lm -o fragfold
+(ignore warning about using tmpnam)
+
+
+FRAGFOLD libraries:
+Define FDATA_DIR and FTDB_DIR environment variables and point them to data/ folder.
+Otherwise, FRAGFOLD assumes library files are in the same location as FRAGFOLD.
+
+
+Folding:
+fragfold T0281.nfpar output.pdb
+
+Running FRAGFOLD once will generate one single model. For structure prediction you
+need to generate an ensemble of say 100 models or more and perform some form of
+final model selection (e.g. structural clustering or energy-based selection).
+The more models you are able to generate, the more accurate the final model is likely to be.
+Typically you would use a cluster of machines to generate these models, but if
+you are prepared to wait, you can obviously just run FRAGFOLD on a single computer.
+
+Refinement:
+fragfold T0281_refine.nfpar output.pdb T0281_initial.pdb

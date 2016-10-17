@@ -1,0 +1,102 @@
+PLEASE READ THE FOLLOWING LICENSE AGREEMENT. BY USING THE PROGRAM YOU ARE
+ACKNOWLEDGING THE FACT THAT YOU AGREE TO THE TERMS OUTLINED IN THIS
+AGREEMENT. USERS WISHING TO USE THE SOFTWARE FOR COMMERCIAL ACTIVITIES
+SHOULD SEND E-MAIL TO: enquiries AT ebisu.co.uk
+
+
+                              FRAGFOLD
+                           by D.T. JONES
+---------------------------------------------------------------------------
+
+                         GENERAL LICENSE &
+                         -----------------
+
+                     CONFIDENTIALITY AGREEMENT
+                     -------------------------
+
+
+
+In regard to the protein structure prediction program (FRAGFOLD)
+herewith (the Software), the copyright and other intellectual property
+rights to which belong to the Copyright holder (University College London).
+
+Any user (the User) of the program undertakes to the Copyright holder that
+he or she shall be bound by the following terms and conditions:-
+
+1. The User will receive the Software and any related documentation in
+confidence and will not use the same except for the purpose of their own
+research. The Software will be used only by such of the User's officers or
+employees to whom it must reasonably be communicated to enable them to
+undertake their research and who agree to be bound by the same confidence.
+The User shall procure and enforce such agreement from his or her staff for
+the benefit of the Copyright holder.
+
+2. The publication of research using the Software must include an
+appropriate citation to the method:
+
+**************************
+*                        *
+* INCLUDE ALL CITATIONS? *
+*                        *
+**************************
+
+D.T. Jones (1997) "Successful ab initio prediction of the tertiary structure of
+NK-lysin using multiple sequences and recognized supersecondary structural motifs."
+Proteins 29(Suppl 1), 185-191.
+
+D.T. Jones (2001) "Predicting novel protein folds by using FRAGFOLD" Proteins
+45(Suppl 5), 127-132.
+
+D.T. Jones, L.J. McGuffin (2003) "Assembling novel protein folds from super-secondary
+structural fragments" Proteins 53(Suppl 6), 480-485.
+
+D.T. Jones, K. Bryson, A. Coleman, L.J. McGuffin, M.I. Sadowski, J.S. Sodhi,
+J.J. Ward (2005) "Prediction of novel and analogous folds using fragment assembly
+and fold recognition" Proteins 61(Suppl 7) 143-151.
+
+T. Kosciolek, D.T. Jones (2014) "De Novo Structure Prediction of Globular Proteins
+Aided by Sequence Variation-Derived Contacts" PLoS One 9, E92197.
+
+3. All forms of the Software will be kept in a reasonably secure place to
+prevent unauthorised access.
+
+4. Each copy of the Software or, if not practicable then, any package
+associated therewith shall be suitably marked (and such marking maintained)
+with the following copyright notice: "Copyright 1995, 2005 University College London.
+All Rights Reserved.".
+
+5. The Software may be modified, but any changes made shall be communicated
+to the Author(s) and made freely available.
+
+6. The Software may not be used for commercial activities, sold as a standalone package,
+or incorporated into a commercial software package without the written permission of the
+Copyright holder. The Software may be used freely for non-commercial research and teaching
+purposes.
+
+7. Users may not incorporate the output of the software into any data banks or
+databases which are subject to the payment of access or license fees without the written
+permission of the Copyright holder.
+
+8. The Software may be made available to other academic users over a local network or
+wide area network (including the Internet). Incorporation of the Software into any kind of
+commercial Web site or other fee paying service is forbidden without the written
+permission of the Copyright holder.
+
+9. The confidentiality obligation in paragraph one shall not apply:
+
+   (i)  to information and data known to the User at the time of
+        receipt here under (as evidenced by its written records);
+
+  (ii)  to information and data which was at the time of receipt in the
+        public domain or thereafter becomes so through no wrongful act of
+        the User;
+
+ (iii)  to information and data which the User receives from a third
+        party not in breach of any obligation of confidentiality owed to
+        the Author(s).
+
+10. The User understands that the Software is supplied "as is". No warranty
+   as to its fitness or suitability for any purpose whatsoever is made or
+   implied. In no event shall the Author(s) or Copyright holder be held
+   responsible for any direct or indirect damages arising through the use
+   of the Software.

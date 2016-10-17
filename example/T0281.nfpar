@@ -1,0 +1,53 @@
+# FRAGFOLD Parameter File
+
+# Alignment file
+ALNFILE T0281_big.aln
+
+# Predicted residue-residue contacts file location
+CONFILE T0281.con
+
+# Weighting mode
+WTMODE STDEV
+
+# Steric mode
+STERMODE ALLATOM
+
+# Short range weighting
+SRWT 1.0
+# Long range weighting
+LRWT 1.0
+# Solvation weighting
+SOLVWT 1.0
+# Hydrogen bond weighting
+HBWT 1.0
+# Compactness weighting
+COMPACTWT 1.0
+# Steric weighting
+STERICWT 3.0
+# Disulphide weighting
+DSWT 0.0
+# RMSD-to-target weighting
+TARGWT 0.0
+# Residue-residue contact weighting
+RRWT 5.0
+# alternatively, define short-range and long-range contact weighting separately
+# SRRWT 1.0
+# LRRWT 4.0
+
+# Max. annealing steps
+MAXSTEPS 5000000
+
+# Initial temperature
+INITEMP 0.60
+
+# MAXFRAGS
+MAXFRAGS 5
+
+# MAXFRAGS2
+MAXFRAGS2 25
+
+MODE FOLD
+
+POOLSIZE 10
+TRATIO 0.60
+OPTMETHOD REPMC
